@@ -53,7 +53,7 @@ $totalPrice = 0;
 
     <link rel="stylesheet" href="<?php echo APPURL; ?>/css/style.css" />
 
-    <title>ThemePlanet</title>
+    <title>Studio81</title>
 </head>
 
 <body>
