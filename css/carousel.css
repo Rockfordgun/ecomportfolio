@@ -1,0 +1,107 @@
+/*main Banner*/
+.hero_text {
+    font-size: 4rem;
+}
+
+.hero1 {
+    text-align: left;
+    color: #FE6DCB;
+    font-weight: 900;
+}
+
+.hero2 {
+    color: #EB9F49;
+    font-weight: 900;
+}
+
+
+
+.owl-carousel .owl-nav {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+    position: absolute;
+    margin-top: -10px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-prev:focus,
+.owl-carousel .owl-nav .owl-prev:active,
+.owl-carousel .owl-nav .owl-next:hover,
+.owl-carousel .owl-nav .owl-next:focus,
+.owl-carousel .owl-nav .owl-next:active {
+
+    outline: none;
+}
+
+.owl-carousel .owl-nav .owl-next span::before,
+.owl-carousel .owl-nav .owl-prev span::before {
+    font-size: 40px;
+    color: white;
+}
+
+.owl-carousel .owl-nav .owl-prev {
+    left: 30px;
+}
+
+.owl-carousel .owl-nav .owl-next {
+    right: 30px;
+}
+
+.owl-carousel .owl-dots {
+    text-align: center;
+}
+
+.owl-carousel .owl-dots .owl-dot {
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    border-radius: 50%;
+    background: #3B3E3F;
+}
+
+.owl-carousel .owl-dots .owl-dot.active {
+
+    background: #E7233C;
+}
+
+
+.owl-carousel.home-slider .owl-dots {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+}
+
+/*Language Banner*/
+
+
+
+#owl-demo .item {
+    margin: 3px;
+}
+
+#owl-demo .item img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+
+
+.langimg {
+
+    height: 100px;
+    width: 100%;
+
+}
+
+.owl-item.active {
+    text-align: center;
+}

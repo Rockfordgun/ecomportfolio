@@ -1,0 +1,76 @@
+$font-family: 'Kanit', sans-serif;
+
+
+$primary: #E7233C; 
+$secondary: #36BCDE;
+$success: #3B3E3F;
+
+
+//navbar
+
+$navbar-light-color:$secondary;
+$navbar-light-hover-color:$primary;
+
+//Spacer
+
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+  9: $spacer * 17,
+  
+) !default;
+
+// scss-docs-start headings-variables
+$headings-margin-bottom:      $spacer * .5 !default;
+$headings-font-family:        null !default;
+$headings-font-style:         null !default;
+$headings-font-weight:        500 !default;
+$headings-line-height:        1.2 !default;
+$headings-color:              $secondary;
+// scss-docs-end headings-variables
+
+$navbar-nav-link-padding-x: 0.8rem;
+$navbar-padding-y: 1rem;
+$navbar-dark-color: #fff;
+
+// scss-docs-start container-max-widths
+$container-max-widths: (
+  sm: 540px,
+  md: 725px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1720px
+) !default;
+
+$display-font-sizes: (
+  1: 4rem,
+  2: 4.5rem,
+  3: 4rem,
+  4: 3.5rem,
+  5: 3rem,
+  6: 2.5rem,
+  7: 10rem,
+) !default;
+
+$display-font-family: null !default;
+$display-font-style:  null !default;
+$display-font-weight: 300 !default;
+$display-line-height: $headings-line-height !default;
+
+
+$enable-negative-margins: true;
+@import '../node_modules/bootstrap/scss/bootstrap';
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;200;300;400;500;600;700&family=Lora:wght@500&display=swap');
+@import '../node_modules/bootstrap/scss/bootstrap.scss'
+
+
+
